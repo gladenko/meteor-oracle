@@ -25,7 +25,7 @@ Package.onUse(function(api) {
   api.use('mongo', ['client', 'server']);
   api.use('minimongo', 'server');
   api.use('ejson', 'server');
-  api.use('ddp-server@1.2.1', 'server');
+  api.use('ddp-server@3.3.2', 'server');
   api.addFiles('lib/server/wrapper.js', 'server');
   api.addFiles('lib/server/oracle_driver.js', 'server');
   api.addFiles('lib/server/remote_collection_driver.js', 'server');
